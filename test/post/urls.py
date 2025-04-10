@@ -1,6 +1,7 @@
 from django.urls import path
-from post.views import deneme
+from post.views import deneme, netice
 
 urlpatterns = [
-    path('',deneme)
+    path('',deneme),
+    path('netice/', netice)
 ]
